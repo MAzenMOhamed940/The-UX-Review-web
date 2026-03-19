@@ -130,7 +130,7 @@ a {
 
 .hero-section {
   background-color: #fff085;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .hero-section .top-left {
@@ -171,11 +171,11 @@ a {
   box-shadow: 3px 3px black;
   font-size: 14px;
   transform: rotate(-2deg);
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .hero-section .hero-info h2 {
-  margin: 0;
+  margin-bottom: 24px;
   font-size: 72px;
   font-weight: 900;
   line-height: 90px;
@@ -204,6 +204,9 @@ a {
   line-height: 32px;
   margin: 0;
 }
+.hero-section .hero-info .buttons{
+margin-bottom: 70px;
+}
 
 .hero-section .hero-info .buttons .start-btn {
   background-color: black;
@@ -215,7 +218,6 @@ a {
   border: 4px solid black;
   transition: all 0.2s;
   cursor: pointer;
-  margin-bottom: 70px;
 }
 .hero-section .hero-info .buttons .start-btn:hover {
   transform: translate(1.5px);
@@ -233,7 +235,7 @@ a {
   margin-left: 20px;
   transition: all 0.2s;
   cursor: pointer;
-  margin-bottom: 70px;
+  
 }
 
 .hero-section .hero-info .buttons .watch-btn:hover {
