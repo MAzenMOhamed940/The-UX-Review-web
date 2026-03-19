@@ -21,9 +21,7 @@ a {
   color: black;
 }
 
-.clear-fix {
-  clear: both;
-}
+
 .container {
   margin: 0 auto;
   padding-inline: 12px;
@@ -1024,7 +1022,7 @@ a {
 
 /*****& End community-section styles *****/
 
-/***** Footer Styles *****/
+/*****^ Footer Styles *****/
 .footer {
   background-color: #000;
   color: #fff;
@@ -1184,4 +1182,4 @@ a {
     color: #ffdf20;
 }
 
-/***** End Footer Styles *****/
+/*****^ End Footer Styles *****/
