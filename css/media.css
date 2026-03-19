@@ -1,6 +1,4 @@
-
 @media screen and (min-width: 1400px) {
-
   .container {
     max-width: 1320px;
   }
@@ -8,13 +6,9 @@
   .navbar {
     max-width: 1300px;
   }
-
 }
 
-
-
 @media screen and (max-width: 1399px) {
-
   .container {
     max-width: 1140px;
   }
@@ -22,13 +16,9 @@
   .navbar {
     max-width: 1220px;
   }
-
 }
 
-
-
 @media screen and (max-width: 1199px) {
-
   .container {
     max-width: 960px;
   }
@@ -37,7 +27,7 @@
     display: none;
   }
 
-  .navbar .sub-btn{
+  .navbar .sub-btn {
     display: none;
   }
 
@@ -45,6 +35,14 @@
     display: flex;
   }
 
+  /* Buttons */
+  .hero-section .hero-info .buttons button {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .hero-section .hero-info .buttons .watch-btn {
+    margin-left: 0;
+  }
 
   /* Authors */
   .authors-section .cards .card {
@@ -60,21 +58,16 @@
     width: 35%;
   }
 
-   .footer-bottom {
+  .footer-bottom {
     flex-direction: column;
     align-items: center;
   }
-
 }
 
-
-
 @media screen and (max-width: 991px) {
-
   .container {
     max-width: 720px;
   }
-
 
   /* ===== Hero ===== */
   .hero-box {
@@ -85,7 +78,10 @@
   .hero-image {
     width: 100%;
   }
-  .hero-image{
+  .hero-section .top-right{
+    display: none;
+  }
+  .hero-image {
     margin-bottom: 50px;
   }
 
@@ -132,23 +128,17 @@
     width: 100%;
   }
 
+  /* Footer */
 
-      /* Footer */
-
-        .footer .footer-top .footer-col {
-            width: 50% ;
-        }
+  .footer .footer-top .footer-col {
+    width: 50%;
+  }
   .footer .footer-top .brand-col {
     width: 100%;
-  
   }
-
 }
 
-
-
 @media screen and (max-width: 767px) {
-
   .container {
     max-width: 540px;
   }
@@ -163,13 +153,6 @@
     font-size: 18px;
   }
 
-  /* Buttons */
-  .hero-section .hero-info .buttons button {
-    width: 100%;
-    margin-left: 0;
-    margin-bottom: 15px;
-  }
-
   /* Articles text */
   .article-text h4 {
     font-size: 20px;
@@ -178,7 +161,7 @@
   .article-text p {
     font-size: 16px;
   }
-    /* Footer */
+  /* Footer */
   .footer .footer-top {
     flex-direction: column;
     gap: 30px;
@@ -189,15 +172,9 @@
   .footer .footer-top .newsletter-col {
     width: 100%;
   }
-
-
-
 }
 
-
-
 @media screen and (max-width: 575px) {
-
   .container {
     width: 100%;
     padding-inline: 10px;
@@ -229,5 +206,4 @@
     flex-direction: column;
     text-align: center;
   }
-
 }
